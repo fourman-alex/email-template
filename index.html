@@ -52,6 +52,13 @@
         display: block !important;
         width: 100% !important;
       }
+      .detail-col {
+        width: 100% !important;
+        padding-right: 0 !important;
+      }
+      .mobile-detail-col {
+        padding-bottom: 32px !important;
+      }
     }
   </style>
 </head>
@@ -113,22 +120,22 @@
 
                   <!-- 2x2 details -->
                   <div style="font-size:0;">
-                    <div style="display:inline-block;width:100%;max-width:288px;vertical-align:top;font-size:16px;padding:0 12px 0 0;">
+                    <div class="detail-col mobile-detail-col" style="display:inline-block;width:50%;vertical-align:top;font-size:16px;box-sizing:border-box;padding:0 12px 0 0;">
                       <p style="margin:0 0 6px 0;font-size:11px;line-height:16px;letter-spacing:2px;text-transform:uppercase;color:var(--color-accent);">Plan</p>
                       <p style="margin:0;font-size:18px;font-size:clamp(16px, 2.2vw, 22px);line-height:1.4;font-weight:600;color:var(--color-navy);">{{planName}}</p>
                     </div><!--
-                 --><div style="display:inline-block;width:100%;max-width:300px;vertical-align:top;font-size:16px;">
+                 --><div class="detail-col" style="display:inline-block;width:50%;vertical-align:top;font-size:16px;box-sizing:border-box;">
                       <p style="margin:0 0 6px 0;font-size:11px;line-height:16px;letter-spacing:2px;text-transform:uppercase;color:var(--color-accent);">Destination</p>
                       <p style="margin:0;font-size:18px;font-size:clamp(16px, 2.2vw, 22px);line-height:1.4;font-weight:600;color:var(--color-navy);">{{destination}}</p>
                     </div>
                   </div>
 
                   <div style="font-size:0;margin-top:32px;">
-                    <div style="display:inline-block;width:100%;max-width:288px;vertical-align:top;font-size:16px;padding:0 12px 0 0;">
+                    <div class="detail-col mobile-detail-col" style="display:inline-block;width:50%;vertical-align:top;font-size:16px;box-sizing:border-box;padding:0 12px 0 0;">
                       <p style="margin:0 0 6px 0;font-size:11px;line-height:16px;letter-spacing:2px;text-transform:uppercase;color:var(--color-accent);">Travelling</p>
                       <p style="margin:0;font-size:18px;font-size:clamp(16px, 2.2vw, 22px);line-height:1.4;font-weight:600;color:var(--color-navy);">{{travelDates}}</p>
                     </div><!--
-                 --><div style="display:inline-block;width:100%;max-width:300px;vertical-align:top;font-size:16px;">
+                 --><div class="detail-col" style="display:inline-block;width:50%;vertical-align:top;font-size:16px;box-sizing:border-box;">
                       <p style="margin:0 0 6px 0;font-size:11px;line-height:16px;letter-spacing:2px;text-transform:uppercase;color:var(--color-accent);">Travellers</p>
                       <p style="margin:0;font-size:18px;font-size:clamp(16px, 2.2vw, 22px);line-height:1.4;font-weight:600;color:var(--color-navy);">{{travellers}}</p>
                     </div>
